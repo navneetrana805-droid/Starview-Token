@@ -454,7 +454,7 @@ const PK=['bookings','units','tokens','team'],parts=()=>({bookings:{B},units:{US
  * Replace the placeholder below with the deployed Apps Script Web App URL.
  * Reads use JSONP (to work across origins); writes use a simple form POST.
  */
-const GS_WEB_APP_URL='PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+const GS_WEB_APP_URL='https://script.google.com/macros/s/AKfycbzjtIlIRReGbaUBeAf4kY93zNg4ZYgtFiAB3cjB0Mo2-QKErZDMTDAYo0p4ewES1KAJ/exec';
 let DBH=null,sent={},rt=null,armed=false,cloudOK=false,initing=false;
 function cst(t,c){const z=$('#cs');if(z){z.textContent=t;z.style.color=c||'var(--mu)'}}
 function gsConfigured(){return /^https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec/.test(GS_WEB_APP_URL)}
